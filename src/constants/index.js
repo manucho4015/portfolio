@@ -13,12 +13,9 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
   shopify,
+  docker,
+  graphgl,
   carrent,
   jobit,
   tripguide,
@@ -109,12 +106,16 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "GraphQL",
+    icon: graphgl,
   },
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "shopify",
+    icon: shopify,
   },
 ];
 
