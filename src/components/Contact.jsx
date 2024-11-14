@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser'
+import { toast } from 'react-toastify'
 
 import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
@@ -30,7 +31,7 @@ const Contact = () => {
     // template_30vlgh5
     // service_p3gqrfm
 
-    emailjs.send(
+    toast.promise(emailjs.send(
       'service_p3gqrfm',
       'template_30vlgh5',
       {
@@ -41,19 +42,49 @@ const Contact = () => {
         message: form.message
       },
       'R9J5eTHuBl81E5USv'
-    ).then(() => {
-      setLoading(false)
-      alert('Thank you. I will get back to you as soon as possible')
-      setForm({
-        name: '',
-        email: '',
-        message: ''
-      })
-    }, (error) => {
-      setLoading(false)
-      console.log(error)
-      alert('Something went wrong.')
+    ), {
+      pending: 'Sending email...',
+      success: {
+        render() {
+          setLoading(false)
+          setForm({
+            name: '',
+            email: '',
+            message: ''
+          })
+          return "Thank you! I'll get back as soon as I can 😄"
+        }
+      },
+      error: {
+        render() {
+          console.log(error)
+          return 'Something went wrong.'
+        }
+      }
     })
+
+    // emailjs.send(
+    //   'service_p3gqrfm',
+    //   'template_30vlgh5',
+    //   {
+    //     from_name: form.name,
+    //     to_name: 'Manucho',
+    //     from_email: form.email,
+    //     to_email: 'eochieng16@gmail.com',
+    //     message: form.message
+    //   },
+    //   'R9J5eTHuBl81E5USv'
+    // ).then(() => {
+    //   setLoading(false)
+    //   setForm({
+    //     name: '',
+    //     email: '',
+    //     message: ''
+    //   })
+    // }, (error) => {
+    //   setLoading(false)
+    //   console.log(error)
+    // })
   }
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
