@@ -29,7 +29,16 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn('', '', 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable and user-friendly solutions that solve real-world problems, let's work together to bring your ideas to life!
+        I'm a skilled software developer with 4+ years work experience in
+        <span className="font-semibold"> TypeScript</span> and
+        <span className="font-semibold"> JavaScript</span>,
+        and expertise in frameworks like
+        <span className="font-semibold"> React, Remix, Node.js </span>
+        and <span className="font-semibold">Three.js</span>.
+        I also have expertise with technologies such as
+        <span className="font-semibold"> AWS, Terraform, Kubernetes, Docker</span> and
+        <span className="font-semibold"> GraphQL</span>.
+        I'm a quick learner and collaborate closely with fellow developers as well as clients to create efficient, scalable and user-friendly solutions that solve real-world problems, let's work together to bring your ideas to life!
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
