@@ -25,6 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import enigma from "./company/enigma.ico";
+import ansu from "./company/ansu.png";
+import uon from "./company/uon.png";
+import first_advantage from "./company/first-advantage.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  enigma,
+  ansu,
+  first_advantage,
+  uon,
 };

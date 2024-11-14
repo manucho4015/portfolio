@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  enigma,
+  ansu,
+  first_advantage,
+  uon,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +50,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -54,7 +58,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Shopify Expert",
     icon: creator,
   },
 ];
@@ -116,11 +120,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer",
+    company_name: "Enigma Big Data Labs",
+    icon: enigma,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Aug 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,42 +133,43 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer",
+    company_name: "ANSU",
+    icon: ansu,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2023 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications using React.js, Remix.js and other related technologies.",
+      "Research on best practises in areas such as UI/UX experience within THE E-commerce community",
+      "Mentor young and talented junior developers on industry best practises as well as teach them new concepts",
+      "Use GraphQL in order to connect to Shopify's Admin API as well as Storefront API to access Shopify's internal ecosystem",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Frontend Developer",
+    company_name: "First Advantage Consulting",
+    icon: first_advantage,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2022 - Feb 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Research on Miscrosoft Azure in order to find the best possible solutions to implement required business requirements.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "IT Intern",
+    company_name: "University of Nairobi",
+    icon: uon,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "April 2021 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining a career management system using Python, Django and other related technologies.",
+      "Reporting progress to the Dean of Students and receiving feedback which I used to make necessary changes",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
