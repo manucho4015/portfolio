@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import eye from "./eye.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -22,18 +23,24 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import graphgl from "./tech/graphql.png";
 
-import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
+// work experience logos
 import enigma from "./company/enigma.ico";
 import ansu from "./company/ansu.png";
 import uon from "./company/uon.png";
 import first_advantage from "./company/first-advantage.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// projects screenshots
+import enigmaBanner from "./enigma-banner.png";
+import smartEdge from "./smart-edge.png";
+import ansuSite from "./ansu-site.png";
+import ansuMarketplace from "./ansu-marketplace.png";
+import awsMicroservices from "./aws-microservices.jpg";
+import coupleCaller from "./couple-caller.png";
+import jobsApi from "./jobs-api.png";
+import cocktailsDb from "./cocktails-db.png";
+import careerMngt from "./career-management.png";
 
 export {
   logo,
@@ -57,16 +64,20 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
   shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   enigma,
   ansu,
   first_advantage,
   uon,
   graphgl,
+  enigmaBanner,
+  smartEdge,
+  eye,
+  ansuSite,
+  ansuMarketplace,
+  awsMicroservices,
+  coupleCaller,
+  jobsApi,
+  cocktailsDb,
+  careerMngt,
 };
