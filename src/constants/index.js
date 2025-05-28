@@ -29,6 +29,7 @@ import {
   jobsApi,
   cocktailsDb,
   careerMngt,
+  manuchoMaps,
 } from "../assets";
 
 export const navLinks = [
@@ -205,6 +206,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Manucho Maps",
+    description:
+      "A web application based on Google Maps enabling users search for locations as well as see traffic congestion on the road to said location. I used the JavaScript Maps API as well as Places API offered by Google Cloud.",
+    tags: [
+      {
+        name: "Google Cloud",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: manuchoMaps,
+    source_code_link: "https://manucho-maps.netlify.app/",
+  },
   {
     name: "Enigma Website",
     description:

@@ -41,6 +41,7 @@ import coupleCaller from "./couple-caller.png";
 import jobsApi from "./jobs-api.png";
 import cocktailsDb from "./cocktails-db.png";
 import careerMngt from "./career-management.png";
+import manuchoMaps from "./manucho-maps-dark.png";
 
 export {
   logo,
@@ -80,4 +81,5 @@ export {
   jobsApi,
   cocktailsDb,
   careerMngt,
+  manuchoMaps,
 };
