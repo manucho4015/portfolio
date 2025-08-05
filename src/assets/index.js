@@ -41,7 +41,7 @@ import coupleCaller from "./couple-caller.png";
 import jobsApi from "./jobs-api.png";
 import cocktailsDb from "./cocktails-db.png";
 import careerMngt from "./career-management.png";
-import manuchoMaps from "./manucho-maps-dark.png";
+import manuchoMaps from "./manucho_maps_thumbnail.png";
 import financeCopilot from "./finance_copilot_thumbnail.png";
 
 export {
