@@ -30,6 +30,7 @@ import {
   cocktailsDb,
   careerMngt,
   manuchoMaps,
+  financeCopilot,
 } from "../assets";
 
 export const navLinks = [
@@ -206,6 +207,39 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Finance Copilot",
+    description:
+      "An AI-based project that enables users have better insights into their finances. Users upload transactions and then can query the AI agent using natural language questions such as 'How much did I spend last month?'. The AI agent genrates responses and even charts depending on the user's questions",
+    tags: [
+      {
+        name: "OpenAI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Supabase(SQL)",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "GenerativeAI",
+        color: "green-text-gradient",
+      },
+    ],
+    image: financeCopilot,
+    source_code_link: "https://finance-copilot.netlify.app/",
+  },
   {
     name: "Manucho Maps",
     description:
