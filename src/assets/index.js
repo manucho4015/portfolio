@@ -33,7 +33,7 @@ import first_advantage from "./company/first-advantage.png";
 
 // projects screenshots
 import enigmaBanner from "./enigma-banner.png";
-import smartEdge from "./smart-edge.png";
+import smartEdge from "./smart_edge_thumbnail.png";
 import ansuSite from "./ansu-site.png";
 import ansuMarketplace from "./ansu-marketplace.png";
 import awsMicroservices from "./aws-microservices.jpg";
