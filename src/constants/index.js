@@ -293,7 +293,7 @@ const projects = [
   {
     name: "Smart Edge",
     description:
-      "The smart edge mobile app is installed on the device and a code is generated on startup of the app. This code is then input on the web application and the device is successfully onboarded. Every 5 minutes the POS device now sends information like location, battery level, wifi connectivity etc...",
+      "A dynamic project used to track POS devices. The Smart Edge POS system securely pairs with our web platform using a one-time code generated on the device. Once connected, the device automatically shares operational data such as location, battery level, and network connectivity every five minutes. This data is diplayed on the web app ",
     tags: [
       {
         name: "React",
