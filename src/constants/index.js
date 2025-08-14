@@ -149,8 +149,8 @@ const experiences = [
     date: "Feb 2023 - Aug 2024",
     points: [
       "Developing and maintaining web applications using React.js, Remix.js and other related technologies.",
-      "Research on best practises in areas such as UI/UX experience within THE E-commerce community",
-      "Mentor young and talented junior developers on industry best practises as well as teach them new concepts",
+      "Research on best practices in areas such as UI/UX experience within THE E-commerce community",
+      "Mentor young and talented junior developers on industry best practices as well as teach them new concepts",
       "Use GraphQL in order to connect to Shopify's Admin API as well as Storefront API to access Shopify's internal ecosystem",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -164,7 +164,7 @@ const experiences = [
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Research on Miscrosoft Azure in order to find the best possible solutions to implement required business requirements.",
+      "Research on Microsoft Azure in order to find the best possible solutions to implement required business requirements.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -214,7 +214,7 @@ const projects = [
   {
     name: "Finance Copilot",
     description:
-      "An AI-based project that enables users have better insights into their finances. Users upload transactions and then can query the AI agent using natural language questions such as 'How much did I spend last month?'. The AI agent genrates responses and even charts depending on the user's questions",
+      "An AI-based project that enables users have better insights into their finances. Users upload transactions and then can query the AI agent using natural language questions such as 'How much did I spend last month?'. The AI agent generates responses and even charts depending on the user's questions",
     tags: [
       {
         name: "OpenAI",
@@ -293,7 +293,7 @@ const projects = [
   {
     name: "Smart Edge",
     description:
-      "A dynamic project used to track POS devices. The Smart Edge POS system securely pairs with our web platform using a one-time code generated on the device. Once connected, the device automatically shares operational data such as location, battery level, and network connectivity every five minutes. This data is diplayed on the web app ",
+      "A dynamic project used to track POS devices. The Smart Edge POS system securely pairs with our web platform using a one-time code generated on the device. Once connected, the device automatically shares operational data such as location, battery level, and network connectivity every five minutes. This data is displayed on the web app ",
     tags: [
       {
         name: "React",
