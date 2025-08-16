@@ -351,7 +351,7 @@ const projects = [
   {
     name: "Ansu Marketplace",
     description:
-      "An platform built to enable sellers upload and manage products sold on the Ansu e-commerce platform. Delivery and logistics are all handled by Ansu. Products are approved before going live and sellers get notifications when an order is placed as well as the ability to add creit card or mobile payment information in order to withdraw funds",
+      "An platform built to enable sellers upload and manage products sold on the Ansu e-commerce platform. Delivery and logistics are all handled by Ansu. Products are approved before going live and sellers get notifications when an order is placed as well as the ability to add payment information in order to withdraw funds",
     tags: [
       {
         name: "React",
